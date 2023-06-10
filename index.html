@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mobile Navbar</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <!-- menu options bar -->
+        <div class="menu__bars">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <!-- mobile__menu -->
+        <div class="mobile">
+          <div class="menu__window">
+            <ul class="mobile__menu">
+              <li id="product">
+                <a>Product</a> <i class="fa-solid fa-chevron-right"></i>
+              </li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Why JSB?</a></li>
+              <li><a href="#">JSB Assist</a></li>
+              <li><a href="#">Bestsellers</a></li>
+              <li id="join">
+                <a>Join Us</a> <i class="fa-solid fa-chevron-right"></i>
+              </li>
+
+              <div class="menu__form">
+                <h6>My Account</h6>
+                <button class="login__btn">Login</button>
+                <button class="register__btn">Register</button>
+              </div>
+            </ul>
+            <div class="slides">
+              <!-- product slide -->
+              <div class="product__slide">
+                <span class="goBack__btn"
+                  ><i class="fa-solid fa-arrow-left"></i>Back</span
+                >
+                <ul>
+                  <li>
+                    <a href="#"> Massage Chairs </a>
+                    <ul>
+                      <li><a href="#"> 2D Massage Chairs </a></li>
+                      <li><a href="#"> 3D Massage Chairs </a></li>
+                      <li><a href="#"> 4D Massage Chairs </a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">Healthcare Messagers</a>
+                    <ul>
+                      <li><a href="#">demo item</a></li>
+                      <li><a href="#">demo item</a></li>
+                      <li><a href="#">demo item</a></li>
+                      <li><a href="#">demo item</a></li>
+                      <li><a href="#">demo item</a></li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <a href="#">Healthcare Messagers</a>
+                    <ul>
+                      <li><a href="#">demo item</a></li>
+                      <li><a href="#">demo item</a></li>
+                      <li><a href="#">demo item</a></li>
+                      <li><a href="#">demo item</a></li>
+                      <li><a href="#">demo item</a></li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <a href="#">Healthcare Messagers</a>
+                    <ul>
+                      <li><a href="#">demo item</a></li>
+                      <li><a href="#">demo item</a></li>
+                      <li><a href="#">demo item</a></li>
+                      <li><a href="#">demo item</a></li>
+                      <li><a href="#">demo item</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- join slide -->
+              <div class="join__slide">
+                <span class="goBack__btn"
+                  ><i class="fa-solid fa-arrow-left"></i> Back</span
+                >
+                <ul>
+                  <li><a href="#">As a Wellness Store Owner</a></li>
+                  <li><a href="#">As a Job Applicant</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="overlay"></div>
+        <h2 class="logo">Logo</h2>
+      </div>
+    </header>
+  </body>
+</html>
